@@ -170,12 +170,7 @@ nav{
     background-attachment: fixed;
 }
 /* --------------------Recent Project----------------------- */
-/* .image_footer_{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./image/image_one_4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
+
 .image_footer_:hover .footer_img_text{
     background-color: initial !important;
 }
@@ -203,7 +198,64 @@ nav{
     color: #ffffff;
     background-color: rgba(0,0,0,0.4) ;
     transition: 0.7s ease-in-out;
+    border-radius: 8px;
 }
+/* ------------------------Contact_us------------------------------------ */
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #D1631C;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.contact-info {
+    flex: 1;
+    /* padding: 1rem; */
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.map{
+    /* border-radius: 0px 10px 10px 0px; */
+}
+
+.contact-info h2 {
+    text-align: center;
+}
+
+/* ------------------------Contact_us------------------------------------ */
+
 /* -----------------------------------------Footer----------------------------------- */
 .footer_image{
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)),url(./image/night-city-osvitchene-neon-.jpg);
@@ -214,7 +266,8 @@ nav{
     background-attachment: fixed;
 }
 footer{
-    background-color: #000;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(./image/happy-builders-in-reflective-vest-and-hard-hat-pointing-at-building-house-1024x684.jpg);
+    
 }
     
 
